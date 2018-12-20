@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="439.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="93.0" layoutY="104.0" prefHeight="34.0" prefWidth="253.0" text="-     登   陆   你   的   账   号    -" textFill="#00000077">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="173.0" layoutY="177.0" prefHeight="40.0" prefWidth="212.0" />
+      <TextField layoutX="173.0" layoutY="244.0" prefHeight="40.0" prefWidth="212.0" />
+      <Label layoutX="68.0" layoutY="177.0" prefHeight="40.0" prefWidth="57.0" text="账号" textFill="#000000b1">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="244.0" prefHeight="40.0" prefWidth="57.0" text="密码" textFill="#000000af">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="139.0" layoutY="291.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="84.0" text="记住密码">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="269.0" layoutY="304.0" prefHeight="15.0" prefWidth="84.0" text="添加新的管理员" textFill="#000000af" />
+      <Button layoutX="68.0" layoutY="345.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="285.0" text="登            陆" textFill="#57a174">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Button>
+      <Label alignment="TOP_CENTER" layoutX="68.0" layoutY="420.0" prefHeight="25.0" prefWidth="285.0" text="-  快  捷  登  陆  -" textFill="#000000b1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="75.0" fitWidth="84.0" layoutX="182.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../图标/gly.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="46.0" layoutX="150.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../图标/qq.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="57.0" layoutX="234.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../图标/weixin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="37.0" layoutX="122.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../图标/my.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="37.0" layoutX="122.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../图标/suo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
